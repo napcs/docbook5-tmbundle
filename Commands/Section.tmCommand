@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+
+count = 0
+
+doc = ARGF.readlines
+doc[ENV["TM_LINE_NUMBER"].to_i..-1] = Array.new
+doc.last[ENV["TM_LINE_INDEX"].to_i..-1] = String.new
+doc = doc.join
+
+doc.scan(%r{&lt;/?sect\d[^&gt;]*&gt;}) do |tag|
+  tag[1] == ?/ ? count -= 1 : count += 1
+end
+print &lt;&lt;END_SNIPPET.strip
+&lt;sect#{count + 1} xml:id="sb.${1/[[:alpha:]]+|( )/(?1:.:\L$1)/g}"&gt;
+	&lt;title&gt;${1:Section Title}&lt;/title&gt;
+	&lt;para&gt;${2:paragraph}&lt;/para&gt;
+     p$0
+&lt;/sect#{count + 1}&gt;
+END_SNIPPET
+</string>
+	<key>input</key>
+	<string>document</string>
+	<key>name</key>
+	<string>Section</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>sec</string>
+	<key>uuid</key>
+	<string>375F665A-EC28-4933-B849-D1320F56032E</string>
+</dict>
+</plist>

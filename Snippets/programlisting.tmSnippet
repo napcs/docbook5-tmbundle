@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;programlisting${1: language="${2:language}" linenumbering="${3:numbered}"}&gt;
+&lt;![CDATA[${0:$TM_SELECTED_TEXT}
+]]&gt;
+&lt;/programlisting&gt;</string>
+	<key>name</key>
+	<string>programlisting</string>
+	<key>tabTrigger</key>
+	<string>pl</string>
+	<key>uuid</key>
+	<string>B15BDC6D-59F0-438C-9FF5-F5075074E60B</string>
+</dict>
+</plist>
