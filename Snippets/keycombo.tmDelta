@@ -4,17 +4,16 @@
 <dict>
 	<key>changed</key>
 	<dict>
-		<key>content</key>
-		<string>&lt;chapter xml:id="ch.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
-  &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
-  ${2:p$0}
-&lt;/chapter&gt;</string>
+		<key>name</key>
+		<string>keycombo</string>
+		<key>scope</key>
+		<string>text.xml</string>
 	</dict>
 	<key>deleted</key>
 	<array/>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>45FFB45B-D526-4C9E-BDF1-E09D0A53E8F2</string>
+	<string>7E75FB2F-D653-4A0B-AFAA-D084D8DFFA9F</string>
 </dict>
 </plist>

@@ -9,8 +9,10 @@
 &lt;/programlisting&gt;</string>
 	<key>name</key>
 	<string>programlisting</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>pl</string>
+	<string>programlisting</string>
 	<key>uuid</key>
 	<string>B15BDC6D-59F0-438C-9FF5-F5075074E60B</string>
 </dict>

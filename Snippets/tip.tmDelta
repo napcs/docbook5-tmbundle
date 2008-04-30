@@ -7,7 +7,7 @@
 		<key>content</key>
 		<string>&lt;tip xml:id="tip.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
   &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
-	&lt;para&gt;$2&lt;/para&gt;
+  ${2:p$0}
 &lt;/tip&gt;
 </string>
 	</dict>

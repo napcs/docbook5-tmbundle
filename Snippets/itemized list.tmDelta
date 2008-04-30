@@ -10,6 +10,8 @@
      l$0
 &lt;/itemizedlist&gt;
 </string>
+		<key>scope</key>
+		<string>text.xml</string>
 		<key>tabTrigger</key>
 		<string>ul</string>
 	</dict>

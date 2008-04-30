@@ -10,6 +10,8 @@
      l$0
 &lt;/orderedlist&gt;
 </string>
+		<key>scope</key>
+		<string>text.xml</string>
 		<key>tabTrigger</key>
 		<string>ol</string>
 	</dict>

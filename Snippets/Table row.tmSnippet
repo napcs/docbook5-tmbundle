@@ -10,6 +10,8 @@
 row$3</string>
 	<key>name</key>
 	<string>Table row</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
 	<string>row</string>
 	<key>uuid</key>

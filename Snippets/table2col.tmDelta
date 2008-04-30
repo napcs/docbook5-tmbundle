@@ -19,14 +19,14 @@
 				&lt;entry&gt;$4&lt;/entry&gt;
 				&lt;entry&gt;$5&lt;/entry&gt;
 			&lt;/row&gt;
-              row$6
+              row$0
 
 		&lt;/tbody&gt;
 	&lt;/tgroup&gt;
 &lt;/table&gt;
 </string>
 		<key>name</key>
-		<string>Two-column table</string>
+		<string>Table (Two columns)</string>
 	</dict>
 	<key>deleted</key>
 	<array/>

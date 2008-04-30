@@ -9,6 +9,8 @@
 &lt;/screen&gt;</string>
 	<key>name</key>
 	<string>screen</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
 	<string>screen</string>
 	<key>uuid</key>

@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&amp;emdash;</string>
+	<string>&lt;userinput&gt;$1&lt;/userinput&gt;</string>
 	<key>name</key>
-	<string>emdash</string>
+	<string>userinput</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>--</string>
+	<string>userinput</string>
 	<key>uuid</key>
-	<string>88A2DE08-BFA8-419F-8F9A-9ED9F81BEDBA</string>
+	<string>39E5AD69-AF01-4701-A032-5E0118E7D918</string>
 </dict>
 </plist>

@@ -5,16 +5,19 @@
 	<key>changed</key>
 	<dict>
 		<key>content</key>
-		<string>&lt;chapter xml:id="ch.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
-  &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
-  ${2:p$0}
-&lt;/chapter&gt;</string>
+		<string>&lt;keycap&gt;$1&lt;/keycap&gt;</string>
+		<key>name</key>
+		<string>keycap</string>
+		<key>scope</key>
+		<string>text.xml</string>
+		<key>tabTrigger</key>
+		<string>keycap</string>
 	</dict>
 	<key>deleted</key>
 	<array/>
 	<key>isDelta</key>
 	<true/>
 	<key>uuid</key>
-	<string>45FFB45B-D526-4C9E-BDF1-E09D0A53E8F2</string>
+	<string>9928EE77-88DA-4548-8C62-E49CDB9BB5F8</string>
 </dict>
 </plist>

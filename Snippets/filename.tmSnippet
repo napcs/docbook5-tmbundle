@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="$1"/&gt;
-</string>
+	<string>&lt;filename&gt;$1&lt;/filename&gt;</string>
 	<key>name</key>
-	<string>xi:include</string>
+	<string>filename</string>
 	<key>scope</key>
 	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>xi</string>
+	<string>filename</string>
 	<key>uuid</key>
-	<string>1AE99AA6-FB7E-4D1B-BDD1-9DA25A68570C</string>
+	<string>A474D572-BFD4-40CA-807E-666342EF8109</string>
 </dict>
 </plist>

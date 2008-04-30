@@ -3,12 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&amp;endash;</string>
+	<string>&lt;footnote&gt;&lt;para&gt;$1&lt;/para&gt;&lt;/footnote&gt;</string>
 	<key>name</key>
-	<string>endash</string>
+	<string>Footnote</string>
+	<key>scope</key>
+	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>-</string>
+	<string>footnote</string>
 	<key>uuid</key>
-	<string>7063E555-16AB-4F79-92D0-3E40C1793333</string>
+	<string>C12B62E9-4318-4271-8491-0DE255DDCBD9</string>
 </dict>
 </plist>

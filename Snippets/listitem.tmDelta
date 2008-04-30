@@ -7,6 +7,8 @@
 		<key>content</key>
 		<string>&lt;listitem&gt;&lt;para&gt;$1&lt;/para&gt;&lt;/listitem&gt;
 l$0</string>
+		<key>scope</key>
+		<string>text.xml</string>
 		<key>tabTrigger</key>
 		<string>l</string>
 	</dict>
