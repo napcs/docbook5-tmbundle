@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>text.xml</string>
 	<key>tabTrigger</key>
-	<string>xref</string>
+	<string>link</string>
 	<key>uuid</key>
 	<string>AF73C056-9746-4048-9CC4-7B919ADD74EA</string>
 </dict>
