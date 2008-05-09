@@ -68,7 +68,7 @@ if TextMate.selected_text
     TextMate.rescan_project
 
     # Return the new render :partial line
-    print "<xi:include xmlns:xi=\"http://www.w3.org/2001/XInclude\" href=\"#{insert_chapter_path}\">\n"
+    print "<xi:include xmlns:xi=\"http://www.w3.org/2001/XInclude\" href=\"#{insert_chapter_path}\" />\n"
   else
     TextMate.exit_discard
   end
