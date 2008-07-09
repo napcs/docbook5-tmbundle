@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+		<string>&lt;indexterm xml:id="$1"&gt;&lt;primary&gt;$2&lt;/primary&gt;&lt;secondary&gt;$3&lt;/secondary&gt;&lt;tertiary&gt;$4&lt;/tertiary&gt;&lt;/indexterm&gt;</string>	<key>name</key>
+	<string>indexterm (tertiary)</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>indexterm</string>
+	<key>uuid</key>
+	<string>BD026175-0AAD-4F45-94B0-4FF692F45228</string>
+</dict>
+</plist>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;caution xml:id="fig.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
+  &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
+  &lt;para&gt;$2&lt;/para&gt;
+&lt;/caution&gt;</string>
+	<key>name</key>
+	<string>caution</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>caution</string>
+	<key>uuid</key>
+	<string>3D61E76C-BCEC-4EF2-B893-607ADCA48360</string>
+</dict>
+</plist>

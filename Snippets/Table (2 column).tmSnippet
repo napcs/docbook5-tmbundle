@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+  <string>&lt;table xml:id="sb.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
+    &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
+  	&lt;tgroup cols='2' align='left' colsep='1' rowsep='1'&gt;
+  		&lt;thead&gt;
+  			&lt;row&gt;
+  				&lt;entry&gt;$2&lt;/entry&gt;
+  				&lt;entry&gt;$3&lt;/entry&gt;
+  			&lt;/row&gt;
+  		&lt;/thead&gt;
+  		&lt;tbody&gt;
+  			&lt;row&gt;
+  				&lt;entry&gt;$4&lt;/entry&gt;
+  				&lt;entry&gt;$5&lt;/entry&gt;
+  			&lt;/row&gt;
+                row$0
+
+  		&lt;/tbody&gt;
+  	&lt;/tgroup&gt;
+  &lt;/table&gt;
+  </string>	<key>name</key>
+	<string>Table (2 column)</string>
+	<key>scope</key>
+	<string>text.xml</string>
+	<key>tabTrigger</key>
+	<string>table</string>
+	<key>uuid</key>
+	<string>E3211934-534E-46A9-AE4C-8EF2E118E58C</string>
+</dict>
+</plist>
