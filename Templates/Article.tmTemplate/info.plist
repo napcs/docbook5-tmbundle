@@ -13,6 +13,8 @@ fi</string>
 	<string>txt</string>
 	<key>name</key>
 	<string>Article</string>
+	<key>scope</key>
+	<string>text.xml.docbook5</string>
 	<key>uuid</key>
 	<string>DDE117D5-7E3E-419B-9E65-3B2B3704B01F</string>
 </dict>

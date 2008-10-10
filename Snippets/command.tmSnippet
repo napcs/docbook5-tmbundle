@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>command</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>command</string>
 	<key>uuid</key>

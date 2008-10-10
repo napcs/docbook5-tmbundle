@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>programlisting</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>programlisting</string>
 	<key>uuid</key>

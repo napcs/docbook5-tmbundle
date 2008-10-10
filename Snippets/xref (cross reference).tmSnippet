@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>xref (cross reference)</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>xref</string>
 	<key>uuid</key>

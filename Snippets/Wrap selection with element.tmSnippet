@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Wrap selection with element</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>uuid</key>
 	<string>CF23B450-1B15-4087-9BD5-517D02E507C5</string>
 </dict>

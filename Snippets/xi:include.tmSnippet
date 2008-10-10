@@ -8,7 +8,7 @@
 	<key>name</key>
 	<string>xi:include</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>xi</string>
 	<key>uuid</key>

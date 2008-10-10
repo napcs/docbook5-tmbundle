@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>OrderedList</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>ol</string>
 	<key>uuid</key>

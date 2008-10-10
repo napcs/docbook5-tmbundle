@@ -3,29 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-  <string>&lt;table xml:id="sb.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
-    &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
-  	&lt;tgroup cols='2' align='left' colsep='1' rowsep='1'&gt;
+	<string>&lt;table xml:id="tb.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
+    &lt;caption&gt;${1:$TM_SELECTED_TEXT}&lt;/caption&gt;
   		&lt;thead&gt;
-  			&lt;row&gt;
-  				&lt;entry&gt;$2&lt;/entry&gt;
-  				&lt;entry&gt;$3&lt;/entry&gt;
-  			&lt;/row&gt;
+  			&lt;tr&gt;
+  				&lt;th&gt;$2&lt;/th&gt;
+  				&lt;th&gt;$3&lt;/th&gt;
+  			&lt;/tr&gt;
   		&lt;/thead&gt;
   		&lt;tbody&gt;
-  			&lt;row&gt;
-  				&lt;entry&gt;$4&lt;/entry&gt;
-  				&lt;entry&gt;$5&lt;/entry&gt;
-  			&lt;/row&gt;
+  			&lt;tr&gt;
+  				&lt;td&gt;$4&lt;/td&gt;
+  				&lt;td&gt;$5&lt;/td&gt;
+  			&lt;/tr&gt;
                 row$0
 
   		&lt;/tbody&gt;
   	&lt;/tgroup&gt;
   &lt;/table&gt;
-  </string>	<key>name</key>
+  </string>
+	<key>name</key>
 	<string>Table (2 column)</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>table</string>
 	<key>uuid</key>

@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>indexterm (primary)</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>indexterm</string>
 	<key>uuid</key>

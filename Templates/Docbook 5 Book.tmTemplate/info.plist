@@ -17,7 +17,7 @@ fi
 	<key>name</key>
 	<string>Book</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>uuid</key>
 	<string>98ACC18E-B761-451B-93B6-8A458E1CAE01</string>
 </dict>

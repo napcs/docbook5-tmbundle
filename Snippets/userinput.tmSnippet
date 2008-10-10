@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>userinput</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>userinput</string>
 	<key>uuid</key>

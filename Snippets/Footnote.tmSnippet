@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>footnote</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>footnote</string>
 	<key>uuid</key>

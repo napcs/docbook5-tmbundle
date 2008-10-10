@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>keycombo (2 keys)</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>key</string>
 	<key>uuid</key>

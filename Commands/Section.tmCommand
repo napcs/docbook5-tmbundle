@@ -32,7 +32,7 @@ END_SNIPPET
 	<key>output</key>
 	<string>insertAsSnippet</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>sec</string>
 	<key>uuid</key>

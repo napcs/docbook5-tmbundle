@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;row&gt;
-  &lt;entry&gt;$1&lt;/entry&gt;
-  &lt;entry&gt;$2&lt;/entry&gt;
-&lt;/row&gt;
+	<string>&lt;tr&gt;
+  &lt;td&gt;$1&lt;/td&gt;
+  &lt;td&gt;$2&lt;/td&gt;
+&lt;/tr&gt;
 row$3</string>
 	<key>name</key>
 	<string>Table row</string>
 	<key>scope</key>
-	<string>text.xml</string>
+	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
 	<string>row</string>
 	<key>uuid</key>
