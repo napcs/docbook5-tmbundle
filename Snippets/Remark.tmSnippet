@@ -3,15 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;para&gt;$1&lt;/para&gt;
-${2:p$3}</string>
+	<string>&lt;remark&gt;$1&lt;/remark&gt;
+</string>
 	<key>name</key>
-	<string>paragraph</string>
-	<key>scope</key>
-	<string>text.xml.docbook5</string>
+	<string>Remark</string>
 	<key>tabTrigger</key>
-	<string>p</string>
+	<string>rem</string>
 	<key>uuid</key>
-	<string>CE2E244C-5680-44E8-B636-5AA5E488A9B3</string>
+	<string>B17719F8-692F-495A-B9D7-526B87DF4826</string>
 </dict>
 </plist>

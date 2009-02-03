@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>&lt;listitem&gt;&lt;para&gt;$1&lt;/para&gt;&lt;/listitem&gt;
-	l$0</string>
+l$0</string>
 	<key>name</key>
 	<string>listitem</string>
 	<key>scope</key>

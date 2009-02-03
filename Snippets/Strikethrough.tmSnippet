@@ -3,18 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;itemizedlist&gt;
-  &lt;listitem&gt;&lt;para&gt;$1&lt;/para&gt;&lt;/listitem&gt;
-  l$0
-&lt;/itemizedlist&gt;
-	</string>
+	<string>&lt;emphasis role="strikethrough"&gt;$TM_SELECTED_TEXT&lt;/emphasis&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^s</string>
 	<key>name</key>
-	<string>ItemizedList</string>
+	<string>Strikethrough</string>
 	<key>scope</key>
 	<string>text.xml.docbook5</string>
-	<key>tabTrigger</key>
-	<string>ul</string>
 	<key>uuid</key>
-	<string>C476F2FA-E22B-4C4C-A7FE-9ACD377A3E05</string>
+	<string>B19F59D8-320F-4F79-BD5D-5B382C26B526</string>
 </dict>
 </plist>
