@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;programlisting${1: language="${2:language}" linenumbering="${3:numbered}"}&gt;
-&lt;![CDATA[${0:$TM_SELECTED_TEXT}
-]]&gt;
-&lt;/programlisting&gt;</string>
+	<string>&lt;programlisting${1: language="${2:language}" linenumbering="${3:numbered}"}&gt;&lt;![CDATA[${0:$TM_SELECTED_TEXT}]]&gt;&lt;/programlisting&gt;</string>
 	<key>name</key>
 	<string>programlisting</string>
 	<key>scope</key>

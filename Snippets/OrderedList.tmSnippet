@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>&lt;orderedlist&gt;
   &lt;listitem&gt;&lt;para&gt;$1&lt;/para&gt;&lt;/listitem&gt;
-  l$0
+  li$0
 &lt;/orderedlist&gt;
 </string>
 	<key>name</key>

@@ -3,10 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;screen&gt;
-&lt;![CDATA[${1:$TM_SELECTED_TEXT}
-]]&gt;
-&lt;/screen&gt;</string>
+	<string>&lt;screen&gt;&lt;![CDATA[${1:$TM_SELECTED_TEXT}]]&gt;&lt;/screen&gt;</string>
 	<key>name</key>
 	<string>screen</string>
 	<key>scope</key>

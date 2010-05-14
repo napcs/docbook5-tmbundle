@@ -6,6 +6,8 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>perl -pe 's/[\$`\\]/\\$&amp;/g; s/([ \t]*)(.+)/$1&lt;\${1:li}&gt;$2&lt;\/\${1\/\\s.*\/\/}&gt;/'</string>
+	<key>fallbackInput</key>
+	<string>line</string>
 	<key>input</key>
 	<string>selection</string>
 	<key>keyEquivalent</key>
@@ -13,7 +15,7 @@
 	<key>name</key>
 	<string>Wrap each line with element</string>
 	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>insertAsSnippet</string>
 	<key>scope</key>
 	<string>text.xml.docbook5</string>
 	<key>uuid</key>

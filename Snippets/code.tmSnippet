@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;para&gt;${1:$TM_SELECTED_TEXT}&lt;/para&gt;</string>
+	<string>&lt;code&gt;$1&lt;/code&gt;</string>
 	<key>name</key>
-	<string>paragraph</string>
-	<key>scope</key>
-	<string>text.xml.docbook5</string>
+	<string>code</string>
 	<key>tabTrigger</key>
-	<string>p</string>
+	<string>code</string>
 	<key>uuid</key>
-	<string>CE2E244C-5680-44E8-B636-5AA5E488A9B3</string>
+	<string>ABC987F8-F034-491E-A5FB-426A80F70ECC</string>
 </dict>
 </plist>
