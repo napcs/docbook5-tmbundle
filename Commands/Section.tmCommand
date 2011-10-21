@@ -19,9 +19,10 @@ doc.scan(%r{&lt;/?sect\d[^&gt;]*&gt;}) do |tag|
 end
 print &lt;&lt;END_SNIPPET.strip
 &lt;sect#{count + 1} xml:id="sec.${1/[[:alpha:]]+|( )/(?1:.:$0)/g}"&gt;
-	&lt;title&gt;${1:Section Title}&lt;/title&gt;
-	&lt;para&gt;${2:paragraph}&lt;/para&gt;
-     ${3:p$0}
+  &lt;title&gt;${1:Section Title}&lt;/title&gt;
+  &lt;para&gt;
+    ${0:paragraph}
+  &lt;/para&gt;
 &lt;/sect#{count + 1}&gt;
 END_SNIPPET
 </string>

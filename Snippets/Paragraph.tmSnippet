@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;para&gt;${1:$TM_SELECTED_TEXT}&lt;/para&gt;</string>
+	<string>&lt;para&gt;
+  ${0:$TM_SELECTED_TEXT}
+&lt;/para&gt;</string>
 	<key>name</key>
 	<string>paragraph</string>
 	<key>scope</key>

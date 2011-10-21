@@ -4,8 +4,12 @@
 <dict>
 	<key>content</key>
 	<string>&lt;${1:para}&gt;$TM_SELECTED_TEXT&lt;/${1/\s.*//}&gt;</string>
+	<key>keyEquivalent</key>
+	<string>^W</string>
 	<key>name</key>
 	<string>Wrap with open/close tag</string>
+	<key>scope</key>
+	<string>text.xml.docbook5</string>
 	<key>uuid</key>
 	<string>934C8369-A012-486C-87A8-8EDBFA0BBFFE</string>
 </dict>

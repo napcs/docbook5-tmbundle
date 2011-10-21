@@ -4,15 +4,15 @@
 <dict>
 	<key>content</key>
 	<string>&lt;figure xml:id="fig.${1/[[:alpha:]]+|( )/(?1:.:\L$0)/g}"&gt;
-&lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
-&lt;screenshot&gt;
-	&lt;mediaobject&gt;
-		&lt;imageobject&gt;
-			&lt;imagedata fileref="$2" align="center" width="$3" /&gt;
-		&lt;/imageobject&gt;
-          &lt;caption&gt;&lt;para&gt;$4&lt;/para&gt;&lt;/caption&gt;
-	&lt;/mediaobject&gt;	  
-&lt;/screenshot&gt;	
+  &lt;title&gt;${1:$TM_SELECTED_TEXT}&lt;/title&gt;
+  &lt;screenshot&gt;
+    &lt;mediaobject&gt;
+      &lt;imageobject&gt;
+        &lt;imagedata fileref="$2" align="center" width="$3" /&gt;
+      &lt;/imageobject&gt;
+      &lt;caption&gt;&lt;para&gt;$4&lt;/para&gt;&lt;/caption&gt;
+    &lt;/mediaobject&gt;	  
+  &lt;/screenshot&gt;	
 &lt;/figure&gt;
 	</string>
 	<key>name</key>
