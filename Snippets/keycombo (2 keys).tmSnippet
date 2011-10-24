@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;keycombo&gt;&lt;keycap&gt;$1&lt;/keycap&gt;+&lt;keycap&gt;$2&lt;/keycap&gt;&lt;/keycombo&gt;</string>
+	<string>&lt;keycombo action="simul"&gt;&lt;keycap&gt;$1&lt;/keycap&gt;&lt;keycap&gt;$2&lt;/keycap&gt;&lt;/keycombo&gt;</string>
 	<key>name</key>
 	<string>keycombo (2 keys)</string>
 	<key>scope</key>

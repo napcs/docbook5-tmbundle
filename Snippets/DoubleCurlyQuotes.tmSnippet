@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;keycombo action="simul"&gt;&lt;keycap&gt;$1&lt;/keycap&gt;&lt;keycap&gt;$2&lt;/keycap&gt;&lt;keycap&gt;$3&lt;/keycap&gt;&lt;/keycombo&gt;</string>
+	<string>&amp;OpenCurlyDoubleQuote;$1&amp;CloseCurlyDoubleQuote; </string>
 	<key>name</key>
-	<string>keycombo (3 keys)</string>
+	<string>DoubleCurlyQuotes</string>
 	<key>scope</key>
 	<string>text.xml.docbook5</string>
 	<key>tabTrigger</key>
-	<string>key</string>
+	<string>q</string>
 	<key>uuid</key>
-	<string>6DAEA2F9-C4A4-4C79-A210-400EE5695438</string>
+	<string>BC421648-3908-4DE1-8B5F-D19725CB1D1C</string>
 </dict>
 </plist>
